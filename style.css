@@ -69,10 +69,11 @@ h2 {
 
 /* Skills Section */
 .skills-grid {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     justify-items: center;
+    overflow-y: scroll;
 }
 
 .skill {
